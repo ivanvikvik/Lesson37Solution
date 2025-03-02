@@ -10,13 +10,12 @@ int main() {
 	cout << "Input size of array: ";
 	cin >> size;
 	*/
-	int array[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 20, 30, 35, 16};
+	int array[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 20, 30, 35, 36};
 	int size = 15;
 
 	int value;
 	cout << "Input find value: ";
-	cin >> value;
-		
+	cin >> value;		
 
 	init(array, size, -20, 50);
 	cout << "Array: " << convert(array, size) << endl;
